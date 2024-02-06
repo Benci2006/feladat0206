@@ -1,23 +1,37 @@
 body
 {
+    background-image: url(baseball-background.jpg);
     margin: 0;
     padding: 0;
     background-position-x: 150px;
+    background-size: 960pt;
+    background-repeat: no-repeat;
 }
 
 #content
 {
+    width: 802px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid 2px red;
+    border-right: solid 2px red;
     padding: 20px;
     background-color: rgba(255,255,255,0.85);
+
 }
 
 .frame
 {
     padding:20px;
     margin:10px;
+    float: right;
+    width: 150px;
+    border-left:solid 2px red;
 }
 
 .frame img
 {
     width: 150px;
 }
+
